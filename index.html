@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Official home of El Gawafel Sportives de Gafsa (EGSG) - club news, fixtures, history, and community updates."
+    />
+    <title>EGSG | El Gawafel Sportives de Gafsa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html#home" class="brand" aria-label="EGSG home page">
+          <img src="images/Logo.webp" alt="EGSG official logo" class="brand-logo" />
+          <div class="brand-text">
+            <span class="brand-subtitle" data-i18n="clubTag">El Gawafel Sportives de Gafsa</span>
+            <span class="brand-name">EGSG</span>
+          </div>
+        </a>
+
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html#home" data-i18n="navHome">Home</a>
+          <a href="index.html#about" data-i18n="navAbout">About</a>
+          <a href="squad.html" data-i18n="navSquad">Squad</a>
+          <a href="index.html#fixtures" data-i18n="navFixtures">Fixtures</a>
+          <a href="index.html#news" data-i18n="navNews">News</a>
+          <a href="index.html#gallery" data-i18n="navGallery">Gallery</a>
+          <a href="index.html#contact" data-i18n="navContact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <a
+            class="social-link social-link-header"
+            href="https://www.facebook.com/EGSG.OFFICIELLE"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="EGSG Facebook page"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M13.5 22v-8h2.7l.4-3.2h-3.1V7.2c0-.9.3-1.6 1.6-1.6H17V2.6c-.3 0-1.3-.1-2.5-.1-2.4 0-4.1 1.5-4.1 4.2V10.8H8v3.2h2.4v8h3.1Z"/>
+            </svg>
+          </a>
+
+          <div class="language-switcher" aria-label="Language switcher">
+            <button class="lang-btn" data-lang="ar" type="button">AR</button>
+            <span class="switch-divider">|</span>
+            <button class="lang-btn active" data-lang="en" type="button">EN</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow" data-i18n="clubTag">El Gawafel Sportives de Gafsa</p>
+            <h1 data-i18n="heroTitle">Proudly representing Gafsa on and off the field.</h1>
+            <p class="hero-text" data-i18n="heroText">
+              A club built on passion, discipline, and ambition. Follow the latest match action,
+              exclusive stories, and the community spirit that drives EGSG forward.
+            </p>
+            <div class="hero-actions">
+              <a href="fixtures.html#all-fixtures" class="btn btn-primary" data-i18n="btnFixtures">Upcoming Fixtures</a>
+              <a href="index.html#about" class="btn btn-secondary" data-i18n="btnAbout">About the Club</a>
+            </div>
+
+            <div class="hero-stats" aria-label="Club statistics">
+              <div class="stat-item">
+                <strong>1967</strong>
+                <span data-i18n="statFounded">Founded</span>
+              </div>
+              <div class="stat-item">
+                <strong>1</strong>
+                <span data-i18n="statCommunity">Community</span>
+              </div>
+              <div class="stat-item">
+                <strong>24/7</strong>
+                <span data-i18n="statSupport">Support</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="match-card">
+              <div class="match-header">
+                <span class="badge" data-i18n="nextMatch">Next Match</span>
+                <span class="match-date">14 Sep</span>
+              </div>
+              <div class="club-lineup">
+                <div class="team">
+                  <span class="team-mark">EGSG</span>
+                  <small data-i18n="homeTeam">Home</small>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                  <span class="team-mark alt">RCA</span>
+                  <small data-i18n="awayTeam">Away</small>
+                </div>
+              </div>
+              <div class="stadium">
+                <span class="stadium-label" data-i18n="stadiumLabel">Stadium</span>
+                <strong data-i18n="stadiumName">Stade de Gafsa</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights" id="about">
+        <div class="container section-heading">
+          <p class="eyebrow subdued" data-i18n="sectionIntro">The Club</p>
+          <h2 data-i18n="aboutTitle">Strength, identity, and commitment.</h2>
+        </div>
+
+        <div class="container cards-grid">
+          <article class="info-card">
+            <div class="card-icon">🏟️</div>
+            <h3 data-i18n="cardMissionTitle">Club Identity</h3>
+            <p data-i18n="cardMissionText">
+              EGSG stands for unity, discipline, and the pride of Gafsa. Every season is a new chapter in our ambition.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">⚽</div>
+            <h3 data-i18n="cardPerformanceTitle">Competitive Spirit</h3>
+            <p data-i18n="cardPerformanceText">
+              From local glory to national-level ambition, the team continues to build an exciting and fearless playing style.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">🤝</div>
+            <h3 data-i18n="cardCommunityTitle">Community First</h3>
+            <p data-i18n="cardCommunityText">
+              We grow through the support of our fans, volunteers, and families who make every matchday unforgettable.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="fixtures" id="fixtures">
+        <div class="container section-heading split">
+          <div>
+            <p class="eyebrow subdued" data-i18n="fixturesLabel">Fixtures</p>
+            <h2 data-i18n="fixturesTitle">Upcoming challenges</h2>
+          </div>
+          <a href="fixtures.html#all-fixtures" class="view-link" data-i18n="viewAll">View all</a>
+        </div>
+
+        <div class="container fixture-card-grid">
+          <article class="match-card-panel">
+            <div class="match-top">
+              <div class="team-side">
+                <span class="team-badge team-badge-green">EGSG</span>
+                <span class="team-name">EGSG</span>
+                <span class="team-position" data-i18n="fixtureHome">Home</span>
+              </div>
+              <div class="match-center">
+                <span class="match-vs">VS</span>
+                <span class="match-kickoff">14 Sep • 18:00</span>
+              </div>
+              <div class="team-side">
+                <span class="team-badge team-badge-light">RCA</span>
+                <span class="team-name">RCA</span>
+                <span class="team-position" data-i18n="fixtureAway">Away</span>
+              </div>
+            </div>
+            <div class="match-bottom">
+              <div class="match-competition-row">
+                <span class="match-competition">Ligue 2</span>
+              </div>
+              <div class="match-details">
+                <span class="match-date-time">14 Sep 2026 • 18:00</span>
+                <span class="stadium-label">Stade de Gafsa</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="match-card-panel">
+            <div class="match-top">
+              <div class="team-side">
+                <span class="team-badge team-badge-light">JSK</span>
+                <span class="team-name">JSK</span>
+                <span class="team-position" data-i18n="fixtureAway">Away</span>
+              </div>
+              <div class="match-center">
+                <span class="match-vs">VS</span>
+                <span class="match-kickoff">21 Sep • 20:00</span>
+              </div>
+              <div class="team-side">
+                <span class="team-badge team-badge-green">EGSG</span>
+                <span class="team-name">EGSG</span>
+                <span class="team-position" data-i18n="fixtureHome">Home</span>
+              </div>
+            </div>
+            <div class="match-bottom">
+              <div class="match-competition-row">
+                <span class="match-competition">Ligue 2</span>
+              </div>
+              <div class="match-details">
+                <span class="match-date-time">21 Sep 2026 • 20:00</span>
+                <span class="stadium-label">Stade du 7 Novembre</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="match-card-panel">
+            <div class="match-top">
+              <div class="team-side">
+                <span class="team-badge team-badge-green">EGSG</span>
+                <span class="team-name">EGSG</span>
+                <span class="team-position" data-i18n="fixtureHome">Home</span>
+              </div>
+              <div class="match-center">
+                <span class="match-vs">VS</span>
+                <span class="match-kickoff">28 Sep • 17:30</span>
+              </div>
+              <div class="team-side">
+                <span class="team-badge team-badge-light">USM</span>
+                <span class="team-name">USM</span>
+                <span class="team-position" data-i18n="fixtureAway">Away</span>
+              </div>
+            </div>
+            <div class="match-bottom">
+              <div class="match-competition-row">
+                <span class="match-competition">Ligue 2</span>
+              </div>
+              <div class="match-details">
+                <span class="match-date-time">28 Sep 2026 • 17:30</span>
+                <span class="stadium-label">Stade de Gafsa</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="news" id="news">
+        <div class="container section-heading">
+          <p class="eyebrow subdued" data-i18n="newsLabel">Latest</p>
+          <h2 data-i18n="newsTitle">Latest news from the club</h2>
+        </div>
+
+        <div class="container news-grid">
+          <article class="news-card">
+            <div class="news-image image-one"></div>
+            <div class="news-body">
+              <span class="news-tag" data-i18n="newsTag1">Training</span>
+              <h3 data-i18n="newsTitle1">EGSG prepares for a crucial stretch of matches.</h3>
+              <p data-i18n="newsText1">
+                The squad is focused on intensity, discipline, and tactical precision ahead of the next fixtures.
+              </p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-image image-two"></div>
+            <div class="news-body">
+              <span class="news-tag" data-i18n="newsTag2">Community</span>
+              <h3 data-i18n="newsTitle2">Fans and supporters rally behind the club.</h3>
+              <p data-i18n="newsText2">
+                The supporters continue to create a powerful atmosphere, fueling the team with unwavering energy.
+              </p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-image image-three"></div>
+            <div class="news-body">
+              <span class="news-tag" data-i18n="newsTag3">Club</span>
+              <h3 data-i18n="newsTitle3">A new era of ambition starts with unity.</h3>
+              <p data-i18n="newsText3">
+                EGSG remains committed to progress, excellence, and a stronger future for the club and its city.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery-strip" id="gallery">
+        <div class="container section-heading center">
+          <p class="eyebrow subdued" data-i18n="galleryLabel">Moments</p>
+          <h2 data-i18n="galleryTitle">The spirit of EGSG</h2>
+        </div>
+
+        <div class="container gallery-grid">
+          <div class="gallery-item tall"></div>
+          <div class="gallery-item"></div>
+          <div class="gallery-item"></div>
+          <div class="gallery-item wide"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html#home" class="brand footer-brand">
+            <img src="images/Logo.webp" alt="EGSG logo" class="brand-logo" />
+            <div class="brand-text">
+              <span class="brand-subtitle" data-i18n="clubTag">El Gawafel Sportives de Gafsa</span>
+              <span class="brand-name">EGSG</span>
+            </div>
+          </a>
+        </div>
+
+        <div>
+          <h4 data-i18n="footerLinks">Quick links</h4>
+          <ul>
+            <li><a href="index.html#about" data-i18n="navAbout">About</a></li>
+            <li><a href="squad.html" data-i18n="navSquad">Squad</a></li>
+            <li><a href="fixtures.html#all-fixtures" data-i18n="navFixtures">Fixtures</a></li>
+            <li><a href="index.html#news" data-i18n="navNews">News</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 data-i18n="footerContact">Contact</h4>
+          <ul>
+            <li>Gafsa, Tunisia</li>
+            <li>info@egsg.tn</li>
+            <li>+216 00 000 000</li>
+            <li>
+              <a
+                class="social-link social-link-footer"
+                href="https://www.facebook.com/EGSG.OFFICIELLE"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="EGSG Facebook page"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M13.5 22v-8h2.7l.4-3.2h-3.1V7.2c0-.9.3-1.6 1.6-1.6H17V2.6c-.3 0-1.3-.1-2.5-.1-2.4 0-4.1 1.5-4.1 4.2V10.8H8v3.2h2.4v8h3.1Z"/>
+                </svg>
+                Facebook
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 EGSG — El Gawafel Sportives de Gafsa</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/fixtures-data.js"></script>
+  </body>
+</html>
