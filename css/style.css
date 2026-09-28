@@ -1224,3 +1224,253 @@ html[dir="rtl"] .hero h1 {
 html[dir="rtl"] .standings-table td:nth-child(2) {
   text-align: right;
 }
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+p,
+.team-name,
+.player-info h3 {
+  overflow-wrap: break-word;
+}
+
+html[lang="ar"] body,
+html[lang="ar"] button {
+  font-family: "Tajawal", "Poppins", sans-serif;
+}
+
+@media (hover: none) {
+  .btn,
+  .match-card-panel,
+  .social-link {
+    transform: none;
+  }
+}
+
+@media (max-width: 980px) {
+  .header-inner {
+    gap: 0.5rem;
+  }
+
+  .brand {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .main-nav {
+    gap: 0;
+    padding: 0.4rem 0.75rem;
+    max-height: calc(100vh - 110px);
+    overflow-y: auto;
+  }
+
+  .main-nav a {
+    display: block;
+    width: 100%;
+    padding: 0.95rem 0.5rem;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(13, 77, 54, 0.08);
+  }
+
+  .main-nav a:last-child {
+    border-bottom: none;
+  }
+
+  .main-nav a::after {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: calc(100% - 1.5rem);
+  }
+
+  .header-inner {
+    min-height: 68px;
+  }
+
+  .social-link-header {
+    display: none;
+  }
+
+  .brand-subtitle {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .lang-btn {
+    min-width: 38px;
+    min-height: 40px;
+  }
+
+  .language-switcher {
+    padding: 0.2rem 0.4rem;
+  }
+
+  .nav-toggle {
+    flex-shrink: 0;
+  }
+
+  .highlights,
+  .fixtures,
+  .news,
+  .gallery-strip,
+  .fixtures-page,
+  .squad-page {
+    padding: 3rem 0;
+  }
+
+  .section-heading {
+    margin-bottom: 1.25rem;
+  }
+
+  .section-heading h2 {
+    font-size: 1.6rem;
+  }
+
+  .section-heading.split {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero {
+    padding: 2rem 0 2.25rem;
+  }
+
+  .hero-stats {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.2rem 0;
+    gap: 0.5rem;
+  }
+
+  .stat-item {
+    padding: 0.7rem 0.45rem;
+  }
+
+  .stat-item strong {
+    font-size: 1.15rem;
+  }
+
+  .stat-item span {
+    font-size: 0.72rem;
+  }
+
+  .btn {
+    min-height: 48px;
+  }
+
+  .match-card {
+    padding: 1.1rem;
+  }
+
+  .team-mark {
+    width: 72px;
+    height: 72px;
+  }
+
+  .cards-grid,
+  .news-grid,
+  .fixture-card-grid {
+    gap: 1rem;
+  }
+
+  .info-card {
+    padding: 1.25rem 1rem;
+  }
+
+  .news-body {
+    padding: 1.15rem;
+  }
+
+  .news-image {
+    min-height: 170px;
+  }
+
+  .match-top {
+    padding: 1.1rem 0.75rem;
+    gap: 0.5rem;
+  }
+
+  .team-side {
+    min-width: 0;
+  }
+
+  .team-name {
+    font-size: 0.72rem;
+  }
+
+  .match-kickoff {
+    text-align: center;
+    font-size: 0.68rem;
+  }
+
+  .player-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .squad-group {
+    padding: 1rem;
+  }
+
+  .player-avatar {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+  }
+
+  .player-card {
+    padding: 0.8rem;
+  }
+
+  .standings-table {
+    min-width: 480px;
+    font-size: 0.85rem;
+  }
+
+  .standings-table th,
+  .standings-table td {
+    padding: 0.7rem 0.75rem;
+  }
+
+  .site-footer {
+    padding-top: 2.2rem;
+  }
+
+  .footer-grid {
+    gap: 1rem;
+  }
+
+  .social-link-footer {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0.6rem 0.8rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .brand-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .brand-name {
+    font-size: 1.25rem;
+  }
+
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .team-badge {
+    width: 52px;
+    height: 52px;
+  }
+}
+
